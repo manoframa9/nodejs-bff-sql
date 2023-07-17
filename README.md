@@ -69,3 +69,8 @@ http://localhost:3000/api/data:response-time: 30.44 ms
 http://localhost:3000/api/data:response-time: 69.77 ms
 http://localhost:3000/api/data:response-time: 66.59 ms
 http://localhost:3000/api/data:response-time: 34.09 ms
+ </pre>
+
+## Clean up
+    docker kill    nodejs-bff-sql sql1
+    docker network rm nodejs-bff-sql
