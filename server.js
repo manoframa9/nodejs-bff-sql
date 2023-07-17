@@ -8,19 +8,6 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/api', (req, res) => {
-    res.send('Welcome to the API!');
-  });
-  
-  app.get('/api/users', (req, res) => {
-    // Handle GET request for retrieving users
-    res.send('hello Somchai');
-  });
-  
-  app.post('/api/users', (req, res) => {
-    // Handle POST request for creating a new user
-  });
-  
 // Add more routes as needed
 const port = 3000; // Use any port number you prefer
 app.listen(port, () => {
