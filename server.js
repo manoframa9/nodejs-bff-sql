@@ -31,7 +31,7 @@ app.listen(port, () => {
 const sql = require('mssql');
 
 const config = {
-  server: 'localhost',
+  server: 'sql1',
   database: 'TestDB',
   user: 'SA',
   password: 'P@ssw0rd',
