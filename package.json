@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-bff-sql",
+  "version": "1.0.0",
+  "description": "learning backend for frontend using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "testquery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoframa9/nodejs-bff-sql.git"
+  },
+  "keywords": [
+    "bff",
+    "sql"
+  ],
+  "author": "ManOfRama9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manoframa9/nodejs-bff-sql/issues"
+  },
+  "homepage": "https://github.com/manoframa9/nodejs-bff-sql#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mssql": "^9.1.1",
+    "tedious": "^16.2.0"
+  }
+}
